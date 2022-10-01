@@ -115,9 +115,6 @@ url-latency-benchmark=PH 菲律宾, server-tag-regex=菲律宾|PH|ph, check-inte
 [filter_remote]
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Google/Google.list, tag=Google, force-policy=国际网络, update-interval=172800, opt-parser=true, enabled=true
 
-# Apple服务
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list, tag=Apple, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
-
 #Disney规则
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Disney/Disney.list, tag=迪士尼, force-policy=Disiney, update-interval=172800, opt-parser=false, enabled=true
 
@@ -127,12 +124,10 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 #全球规则
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy.list, tag=全球规则, force-policy=国际网络, update-interval=172800, opt-parser=true, enabled=true
 
-#国内ip直连
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list, tag=国内IP池, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
+#国内网址+ip集合直连
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMax/ChinaMax.list, tag=🇨🇳网址 & IP地址, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
 
-# China 中国直连
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list, tag=🇨🇳中国直连, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
-# Global规则
+#Global规则
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/QuantumultX/Global/Global.list, tag=Global 规则, force-policy=国际网络, update-interval=86400, opt-parser=true, enabled=true
 
 #TikTok
