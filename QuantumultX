@@ -1,6 +1,6 @@
 # Configuration  （QuantumultX）
 # 基于 MengRain 修改自用
-# 2022年10月01日更新
+# 2022年10月02日更新
 # MengRainTG频道：https://t.me/mengyulianmian
 
 [general]
@@ -121,9 +121,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 # Spotify规则
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Spotify/Spotify.list, tag=Spotify 规则, force-policy=Spotify, update-interval=172800, opt-parser=false, enabled=true
 
-#全球规则
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy.list, tag=全球规则, force-policy=国际网络, update-interval=172800, opt-parser=true, enabled=true
-
 #国内网址+ip集合直连
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMax/ChinaMax.list, tag=🇨🇳网址 & IP地址, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
 
@@ -141,9 +138,7 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.lis
 [rewrite_remote]
 https://raw.githubusercontent.com/boys002/QuantumultX-configuration-file-MengRain/patch-1/Apollo.conf, tag=Apollo, update-interval=172800, opt-parser=false, enabled=false
 https://gitlab.com/ioshkj/quantumultx/-/raw/main/vipjs/baimiaovip.conf, tag=白描, update-interval=172800, opt-parser=false, enabled=false
-
 https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Location.qxrewrite?raw=true, tag=苹果定位服务, update-interval=172800, opt-parser=false, enabled=false
-
 https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/snippet/DisneyPlus-Dualsub.snippet, tag=Disney+双语字幕, update-interval=172800, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=YouTube去广告, update-interval=172800, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/Youtube_CC.conf, tag=油管机翻字幕, update-interval=172800, opt-parser=false, enabled=false
