@@ -79,19 +79,19 @@ static=TikTok, TW 台湾, img-url=https://raw.githubusercontent.com/blackmatrix7
 
 static=Disiney, TW 台湾, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/disneyplus.png
 
-url-latency-benchmark=HK 香港, server-tag-regex=香港|🇭🇰|HK|湾仔|港仔|九龙, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+url-latency-benchmark=HK 香港, server-tag-regex=香港|🇭🇰|HK|湾仔|港仔|九龙|hk, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
 
-url-latency-benchmark=US 美国, server-tag-regex=美国|🇺🇸|US|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
+url-latency-benchmark=US 美国, server-tag-regex=美国|🇺🇸|US|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|us|United States, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
 
-url-latency-benchmark=UK英国, server-tag-regex=英国|🇬🇧|UK, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_Kingdom.png
+url-latency-benchmark=UK 英国, server-tag-regex=英国|🇬🇧|UK|uk, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_Kingdom.png
 
-url-latency-benchmark=JP 日本, server-tag-regex=日本|🇯🇵|JP|东京|川日|大阪|泉日|埼玉|沪日|深日|Japan|名古屋|福冈|仙台|京都|Japan, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+url-latency-benchmark=JP 日本, server-tag-regex=日本|🇯🇵|JP|东京|川日|大阪|泉日|埼玉|沪日|深日|Japan|名古屋|福冈|仙台|京都|Japan|jp, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
 
-url-latency-benchmark=SG 新加坡, server-tag-regex=新加坡|🇸🇬|SG|狮城|Singapore, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
+url-latency-benchmark=SG 新加坡, server-tag-regex=新加坡|🇸🇬|SG|sg|狮城|Singapore, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
 
 url-latency-benchmark=TW 台湾, server-tag-regex=台湾|TW|台北|新竹|台中|桃园|台南|高雄|tw, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Taiwan.png
 
-url-latency-benchmark=PH 菲律宾, server-tag-regex=菲律宾|PH, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Philippines.png
+url-latency-benchmark=PH 菲律宾, server-tag-regex=菲律宾|PH|ph, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Philippines.png
 
 ;static=policy-name-1, Sample-A, Sample-B, Sample-C, img-url=http://example.com/icon.png
 ;available=policy-name-2, Sample-A, Sample-B, Sample-C
