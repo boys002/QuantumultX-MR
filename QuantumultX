@@ -74,9 +74,11 @@ static=国际网络, proxy, HK 香港, TW 台湾, US 美国, img-url=https://raw
 static=AppStore, direct, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/App_Store.png
 
 static=Spotify, 国际网络, TW 台湾, proxy, PH 菲律宾, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Spotify.png
+
 static=TikTok, TW 台湾, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/TikTok_1.png
 
-url-latency-benchmark=Disiney, server-tag-regex=台湾, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/disneyplus.png
+static=Disiney, TW 台湾, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/disneyplus.png
+
 url-latency-benchmark=HK 香港, server-tag-regex=香港|🇭🇰|HK|湾仔|港仔|九龙, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
 
 url-latency-benchmark=US 美国, server-tag-regex=美国|🇺🇸|US|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
