@@ -108,8 +108,6 @@ url-latency-benchmark=PH 菲律宾, server-tag-regex=菲律宾|PH, check-interva
 #
 
 [server_remote]
-
-
 # 你机场的订阅链接
 
 [filter_remote]
