@@ -1,4 +1,3 @@
 # Configuration  （QuantumultX）
-# 基于 MengRain 修改自用
-# 2022年9月30日更新
-# MengRainTG频道：https://t.me/mengyulianmian
+# 基于 @MengRain &@boys002修改自用
+# 2022年11月21日更新
