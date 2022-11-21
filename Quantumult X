@@ -1,7 +1,7 @@
 # Configuration  （QuantumultX）
 # 脚本基于 @MengRain @boys002
 # 分流规则 @blackmatrix7
-# 2022年11月18日更新
+# 2022年11月21日更新
 
 [general]
 # 资源解析器
@@ -218,7 +218,99 @@ ip-cidr, 127.0.0.0/8, direct
 ip-cidr, 172.16.0.0/12, direct
 ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
-geoip, cn, direct
+
+# > 建议在「其他设置」里「GeoLite2」的「来源」填写使用下面链接，并开启「自动更新」
+;https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+
+#中国🇨🇳
+geoip, cn, direct 
+#日本🇯🇵
+geoip, jp, JP 日本
+#香港🇭🇰
+geoip, hk, Global
+#美国🇺🇸
+geoip, us, Global
+#英国🇬🇧
+geoip, gb, Global
+#新加坡🇸🇬
+geoip, sg, Global
+#越南🇻🇳
+geoip, vn, Global
+#印度🇮🇳
+geoip, in, Global
+#希腊🇬🇷
+geoip, gr, Global
+#西班牙🇪🇸
+geoip, es, Global
+#乌克兰🇺🇦
+geoip, ua, Global
+#土耳其🇹🇷
+geoip, tr, Global
+#泰国🇹🇭
+geoip, th, Global
+#台湾
+geoip, tw, TW 台湾
+#瑞士🇨🇭
+geoip, ch, Global
+#瑞典🇸🇪
+geoip, se, Global
+#葡萄牙🇵🇹
+geoip, pt, Global
+#挪威🇳🇴
+geoip, no, Global
+#新西兰🇳🇿
+geoip, nz, Global
+#韩国🇰🇷
+geoip, kr, Global
+#南非🇿🇦
+geoip, za, Global
+#墨西哥🇲🇽
+geoip, mx, Global
+#缅甸🇲🇲
+geoip, mm, Global
+#孟加拉国🇧🇩
+geoip, bd, Global
+#蒙古🇲🇳
+geoip, mn, Global
+#马来西亚🇲🇾
+geoip, my, Global
+#开曼群岛🇰🇾英属
+geoip, ky, Global
+#柬埔寨🇰🇭
+geoip, kh, Global
+#加拿大🇨🇦
+geoip, ca, Global
+#荷兰🇳🇱
+geoip, nl, Global
+#哈萨克🇰🇿
+geoip, kz, Global
+#海地🇭🇹
+geoip, ht, Global
+#芬兰🇫🇮
+geoip, fi, Global
+#斐济🇫🇯
+geoip, fj, Global
+#菲律宾🇵🇭
+geoip, ph, Global
+#法国🇫🇷
+geoip, fr, Global
+#俄罗斯🇷🇺
+geoip, ru, Global
+#德国🇩🇪
+geoip, de, Global
+#丹麦🇩🇰
+geoip, dk, Global
+#波兰🇵🇱
+geoip, pl, Global
+#冰岛🇮🇸
+geoip, is, Global
+#白俄罗斯🇧🇾
+geoip, by, Global
+#澳大利亚🇦🇺
+geoip, au, Global
+#意大利🇮🇹
+geoip, it, Global
+#其他
 final, direct
 
 
