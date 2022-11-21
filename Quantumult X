@@ -311,7 +311,7 @@ geoip, au, Global
 #意大利🇮🇹
 geoip, it, Global
 #其他
-final, direct
+final, Global
 
 
 #
